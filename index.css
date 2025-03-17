@@ -1,0 +1,26 @@
+#center-text {
+  background: lightblue;
+  height: 100rem;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: fixed;
+  top: 10.5rem;
+}
+
+#top-line {
+  background: lightgreen;
+  height: 10rem;
+  width: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+#video-player {
+  background: lightgray;
+  height: 100rem;
+  width: 125rem;
+  position: relative;
+  left: 15rem;
+}
