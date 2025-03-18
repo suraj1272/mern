@@ -12,8 +12,11 @@
 #top-line {
   background: lightgreen;
   height: 10rem;
-  width: 100%;
+  width: auto;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   left: 0;
   top: 0;
 }
@@ -21,7 +24,24 @@
   background: lightgray;
   height: 100rem;
   width: 125rem;
-  position: relative;
+  position: fixed;
   left: 15rem;
-  display: inline;
+}
+#search-box {
+  height: 12%;
+  width: 45%;
+  border: 25%;
+}
+#main {
+  border: 25rem;
+  padding-right: 25%;
+}
+#home-logo {
+  width: 10%;
+  height: 70%;
+  border: 10%;
+  padding-right: 10%;
+}
+#Home-btn:hover {
+  color: black;
 }
